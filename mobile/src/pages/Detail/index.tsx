@@ -5,9 +5,8 @@ import { Feather as Icon, FontAwesome } from '@expo/vector-icons';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { RectButton } from 'react-native-gesture-handler';
 import * as MailComposer from 'expo-mail-composer';
-import 
 
-import api from '../../routes/api';
+import api from '../../routes';
 
 interface Params {
    point_id: number;
